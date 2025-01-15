@@ -1,0 +1,58 @@
+.bg{
+  background-image: url("../img/img-home.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 20px;
+  border-radius: 15px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  display: block;
+  margin: 20px auto;
+}
+
+.menu-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 240px;
+}
+
+.item-menu {
+  font-family: "inter", sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.item-menu:hover {
+  transform:scale(1.1);
+  transition: 0.3s;
+}
+
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3.124rem;
+  
+}
+
+.texto-chamada {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 4rem;
+  font-weight: 800;
+  color: #fff;
+  max-width: 14ch;
+}
