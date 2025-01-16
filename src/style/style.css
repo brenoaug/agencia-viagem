@@ -1,16 +1,37 @@
-@import url("home-banner.css");
+@import url("home-style.css");
 
 * {
   margin: 0;
 }
 
 .btn {
-  height: 50px;
-  width: 200px;
-  font: 1rem "inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.125rem;
+  width: 12.5rem;
+  font: 1.125rem "inter", sans-serif;
   border: none;
-  background-color: #ccd3db;
-  border-radius: 50px;
+  background: linear-gradient(180deg, #D5C182 15%, #C6AC53 73%);
+  color: #332E1B;
+  border-radius: 0.9375rem;
   font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  transform-origin: center;
+}
+
+#back-top{
+  display: none;
+  background: linear-gradient(90deg, #D5C182 15%, #C6AC53 73%);
+  border-radius: 50%;
+  border: none;
+  width: 80px;
+  height: 80px;
+  justify-items: center;
 }
 
