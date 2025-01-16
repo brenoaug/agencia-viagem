@@ -27,6 +27,7 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin: 0rem auto;
+  gap: 3rem;
   max-width: 43.75rem;
   padding: 0;
 }
