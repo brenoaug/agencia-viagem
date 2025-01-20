@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+  background-color: #E2FFF9;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    margin: 0 auto;
+    padding: 0;
+}
+
+figure>img{
+    object-fit: fill;
+}
+
+figcaption{
+    font-size: 1.5rem;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 10px;
+    text-align: center;
+}

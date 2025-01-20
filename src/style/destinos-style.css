@@ -25,13 +25,20 @@ a{
 
   > div {
     border-radius: 15px;
-    flex: 0 0 300px;
+    flex: 1 1 400px;
     border-radius: 0.5rem;
     transition: 0.5s ease-in-out;
     cursor: pointer;
-    box-shadow: 1px 5px 15px #000;
     position: relative;
     overflow: hidden;
+    
+
+    > div img {
+      width: 100%;
+      height: auto;
+      object-fit: cover; 
+      border-radius: 15px;
+  }
 
     &:nth-of-type(1) {
       background: url("../img/img-destiny/carrousel1-plane.jpg")
@@ -60,7 +67,7 @@ a{
     }
 
     &:hover {
-      flex: 0 0 500px;
+      flex: 1 1 600px;
       box-shadow: 1px 3px 15px #0006;
       transform: translatey(-30px);
     }
