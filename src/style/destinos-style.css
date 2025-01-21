@@ -9,7 +9,7 @@ a{
   scroll-behavior: smooth;
 }
 
-.carrousel{
+.principal-cards{
   max-width: 1400px;
   margin-top: 30px;
   padding: 0px 50px 0px 50px;
@@ -55,6 +55,7 @@ a{
       color: #fff;
       display: flex;
       align-items: center;
+      text-align: center;
       padding: 15px;
       opacity: 0;
       flex-direction: column;
