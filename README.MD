@@ -10,6 +10,10 @@ Projeto feito no curso Recode Pro Ai, esta é a Primeira entrega.
 
 - **Frontend**: HTML, CSS, JavaScript
 
+## Funcionamento do Projeto
+
+Cada cliente que deseja realizar uma viagem precisa contratar um pacote. Existem três opções de pacotes disponíveis: Básico, Plus e Premium. Cada pacote inclui um destino escolhido pelo cliente, um hotel associado e uma passagem (de avião ou carro). O aluguel de carro está incluído apenas no pacote Premium, mas pode ser contratado separadamente nos pacotes Básico e Plus.
+
 ## Modelagem de Dados
 
 A modelagem conceitual e lógica foi feita utilizando o BR Modelo. A modelagem física foi realizada usando o MySQL.
@@ -18,9 +22,9 @@ A modelagem conceitual e lógica foi feita utilizando o BR Modelo. A modelagem f
 
 ![Modelagem Conceitual](./modelagem_dados/image.png)
 
-## Funcionamento do Projeto
+## Modelagem Lógica
 
-Cada cliente que deseja realizar uma viagem precisa contratar um pacote. Existem três opções de pacotes disponíveis: Básico, Plus e Premium. Cada pacote inclui um destino escolhido pelo cliente, um hotel associado e uma passagem (de avião ou carro). O aluguel de carro está incluído apenas no pacote Premium, mas pode ser contratado separadamente nos pacotes Básico e Plus.
+![Modelagem Lógica](./modelagem_dados/image2.png)
 
 
 ## Contribuição
