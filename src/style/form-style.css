@@ -1,0 +1,71 @@
+.form-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin: 0 auto;
+  padding: 32px 0px 64px 0px;
+}
+
+.form-container > h1{
+  font-family:"Be Vietnam Pro", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.form-container > p{
+  font-size: 1rem;
+  font-family: "inter", sans-serif;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 2px;
+  max-width: 500px;
+}
+
+label{
+  font-family: "inter", sans-serif;
+  font-size: 1rem;
+}
+
+input[type="text"], input[type="email"]{
+  font-family: "inter", sans-serif;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #d1d1d1;
+  border-radius: 15px;
+  font-size: 1rem;
+}
+
+
+.btn-form{
+  align-self: end;
+}
+
+textarea{
+  font-family: "inter", sans-serif;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #d1d1d1;
+  border-radius: 15px;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px){
+  .form-container{
+    padding: 32px 20px 64px 20px;
+  }
+  input[type="text"], input[type="email"]{
+    padding: 10px;
+    font-size: 1rem;
+  }
+  textarea{
+    padding: 10px;
+    font-size: 1rem;
+  }
+}

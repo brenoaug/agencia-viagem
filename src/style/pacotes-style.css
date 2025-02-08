@@ -1,0 +1,104 @@
+.container-packages {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  margin: 0 auto;
+  gap: 32px;
+  max-width: 1400px;
+  padding: 64px 70px;
+}
+
+#card-package-basic {
+  background-color: #808080;
+  border-radius: 15px;
+  align-items: center;
+  padding: 30px;
+  grid-column: 2/3; 
+  > h1 {
+    font: 600 2.5rem "Be Vietnam Pro", sans-serif;
+    color: #fff;
+    width: 50%;
+    padding-bottom: 30px;
+  }
+  > .basic-list > ul > li {
+    font: 400 1.25rem "inter", sans-serif;
+    color: #fff;
+    padding-bottom: 10px;
+  }
+}
+
+#card-package-plus {
+  background-color: #332e1b;
+  border-radius: 15px;
+  padding: 30px;
+  grid-column: 3/4; 
+  > h1 {
+    font: 600 2.5rem "Be Vietnam Pro", sans-serif;
+    color: #c6ac53;
+    padding-bottom: 30px;
+  }
+  > .plus-list > ul > li  {
+    font: 400 1.25rem "inter", sans-serif;
+    color: #fff;
+    padding-bottom: 10px;
+  }
+}
+
+#card-package-premium {
+  background-color: #d5c182;
+  border-radius: 15px;
+  padding: 30px;
+  grid-column: 2/4;
+  > h1 {
+    font: 600 2.5rem "Be Vietnam Pro", sans-serif;
+    color: #4c3c04;
+    padding-bottom: 30px;
+  }
+  >.premium-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  >.premium-list > ul > li {
+    font: 400 1.25rem "inter", sans-serif;
+    color: #332E1B;
+    padding-bottom: 10px;
+  }
+}
+
+.packages-text{
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 70px 0 0 70px;
+ >h1 {
+  font: 600 2.5rem "Be Vietnam Pro", sans-serif;
+  color: #000;
+  padding-bottom: 30px;
+}
+>p {
+  font: 400 1.25rem "inter", sans-serif;
+  color: #000;
+}
+}
+
+@media (max-width: 768px){
+  .principal-cards{
+    display: none;
+  }
+  .container-packages {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 64px 20px;
+  }
+  .#card-package-premium {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  #card-package-premium > .premium-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+}
+
