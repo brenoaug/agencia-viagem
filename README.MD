@@ -16,7 +16,7 @@ A modelagem conceitual e lógica foi feita utilizando o BR Modelo. A modelagem f
 
 ## Modelagem Conceitual
 
-![Modelagem Conceitual](\modelagem_dados\image.png)
+![Modelagem Conceitual](./modelagem_dados/image.png)
 
 ## Funcionamento do Projeto
 
