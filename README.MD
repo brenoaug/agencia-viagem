@@ -26,7 +26,6 @@ A modelagem conceitual e lógica foi feita utilizando o BR Modelo. A modelagem f
 
 ![Modelagem Lógica](./modelagem_dados/image2.png)
 
-
 ## Contribuição
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e enviar pull requests.
